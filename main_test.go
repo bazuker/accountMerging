@@ -120,7 +120,7 @@ func TestMerge(t *testing.T) {
 
 // TestProcessAccounts demonstrates that the accounts will be successfully processed/merged
 // and the output will be a valid JSON.
-// No exact JSON output match is assertion is done because contents of the input file may vary.
+// No exact JSON output assertion is done because contents of the input file may vary.
 func TestProcessAccounts(t *testing.T) {
 	output, err := ProcessAccounts("accounts.json")
 	assert.NoError(t, err)
