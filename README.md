@@ -39,14 +39,14 @@ Input:
 ```JSON
 [
     {
-        application: "x",
-        emails: ["a", "b", "c"],
-        name: "Person 1"
+        "application": "x",
+        "emails": ["a", "b", "c"],
+        "name": "Person 1"
     },
     {
-        application: "y",
-        emails: ["c", "d"],
-        name: "Person 1"
+        "application": "y",
+        "emails": ["c", "d"],
+        "name": "Person 1"
     }
 ]
 ```
@@ -55,9 +55,9 @@ Output:
 ```JSON
 [
     {
-    applications: ["x", "y"],
-    emails: ["a", "b", "c", "d"],
-    name: "Person 1"
+    "applications": ["x", "y"],
+    "emails": ["a", "b", "c", "d"],
+    "name": "Person 1"
     }
 ]
 ```
