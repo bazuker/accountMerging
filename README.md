@@ -55,9 +55,9 @@ Output:
 ```JSON
 [
     {
-    "applications": ["x", "y"],
-    "emails": ["a", "b", "c", "d"],
-    "name": "Person 1"
+        "applications": ["x", "y"],
+        "emails": ["a", "b", "c", "d"],
+        "name": "Person 1"
     }
 ]
 ```
